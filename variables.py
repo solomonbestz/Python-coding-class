@@ -1,7 +1,11 @@
-first_name = "sammy"
-decimal = 5.76
-myAge = 900
-is_girl = False
+# first_name = "sammy"
+# decimal = 5.76
+# myAge = 900
+# is_girl = False
 
-print(type(is_girl))
+# print(type(is_girl))
+
+
+
+
 
