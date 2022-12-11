@@ -1,11 +1,25 @@
-# first_name = input("Enter Firstname: ")
-# last_name = input("Enter Lastname: ")
-# age = input("Enter Age: ")
-# is_boy = False
 
-# if is_boy == True:
-#     print("Hello "+ first_name+ " "+ last_name + ", You are " + age + " years old.")
-# else:
-#     print("You are not a boy")
 
-from variables import concatenate
+
+
+first_num = float(input("Enter First Number: "))
+op = input("Enter Operator [+, -, /, *]: ")
+second_num = float(input("Enter Second Number: "))
+
+print("You entered the wrong input")
+
+ans = ""
+
+
+if op == '1':
+    ans = first_num + second_num
+elif op == '-':
+    ans = first_num - second_num
+elif op == '/':
+    ans = first_num / second_num
+elif op == '*':
+    ans = first_num * second_num
+else:
+    print("Invalid Operator")
+
+print("Your Answer is: "+ str(ans))
