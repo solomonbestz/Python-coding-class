@@ -8,7 +8,7 @@ second_num = float(input("Enter Second Number: "))
 
 print("You entered the wrong input")
 
-ans = ""
+ans = 20
 
 
 if op == '1':
