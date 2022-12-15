@@ -1,5 +1,11 @@
 
-my_lis = [1, 2, 3, 4, 5]
+king_avenue = ["nath", "divine", "solomon", "covenant", "ibrahim"]
+#                  0,       1,        2,       3         4
 
 
-print()
+
+
+for house in range(len(king_avenue)):
+    print(king_avenue[house])
+
+
