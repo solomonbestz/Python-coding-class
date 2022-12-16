@@ -6,6 +6,7 @@ king_avenue = ["nath", "divine", "solomon", "covenant", "ibrahim"]
 
 
 for house in range(len(king_avenue)):
-    print(king_avenue[house])
+    if "solomo" in king_avenue[house]:
+        print(king_avenue[house])
 
 
