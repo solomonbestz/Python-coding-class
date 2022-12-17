@@ -1,12 +1,10 @@
 
-king_avenue = ["nath", "divine", "solomon", "covenant", "ibrahim"]
+numbers = [5, 8, 4, 34]
+
+sum_num = 0
 
 
+for n in range(len(numbers)):
+    sum_num = sum_num + numbers[n]
 
-
-
-for house in range(len(king_avenue)):
-    if "solomo" in king_avenue[house]:
-        print(king_avenue[house])
-
-
+print(sum_num)
