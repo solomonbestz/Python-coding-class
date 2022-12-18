@@ -5,6 +5,6 @@ sum_num = 0
 
 
 for n in range(len(numbers)):
-    sum_num = sum_num + numbers[n]
+    sum_num += numbers[n]
 
 print(sum_num)
